@@ -1,0 +1,33 @@
+{
+  "name": "test-api",
+  "version": "0.1.0",
+  "repository": "",
+  "private": false,
+  "description": "Basic test API",
+  "author": "igorer88@gmail.com",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "backend",
+    "mongodb",
+    "remoteok"
+  ],
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "libphonenumber-js": "^1.7.22"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "jest": "^24.9.0",
+    "morgan": "^1.9.1"
+  }
+}
